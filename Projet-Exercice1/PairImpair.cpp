@@ -11,16 +11,16 @@ int main()
 	// Pour les accents
 	setlocale(LC_ALL, "");
 
-	// Déclaration d'une variable
+	// DÃ©claration d'une variable
 	int nombreEntier;
 
 	// L'utilisateur doit entrer un nombre entier
 	std::cout << "Veuillez entrer un nombre entier : ";
 
-	// Le programme mémorise la valeur dans "nombreEntier"
+	// Le programme mÃ©morise la valeur dans "nombreEntier"
 	std::cin >> nombreEntier;
 
-	// Vérifie à l'aide du modulo si le nombre entier est pair ou impair
+	// VÃ©rifie Ã  l'aide du modulo si le nombre entier est pair ou impair
 	if (nombreEntier%2 == 0)
 	{
 		// Indique que le nombre est pair
@@ -32,13 +32,14 @@ int main()
 		std::cout << "Votre nombre entier est impair.";
 	}
 
-	// Indique que le programme s'est exécuté sans erreur
+	// Indique que le programme s'est exÃ©cutÃ© sans erreur
 	return 0;
 }
 
 // Plan de tests
+// KM : Penser Ã  mettre des valeurs nÃ©gatives et 0
 /*
-	nombreEntier		Résultat attendu
+	nombreEntier		RÃ©sultat attendu
 	------------		----------------
 	13					Votre nombre entier est impair.
 	692					Votre nombre entier est pair.
